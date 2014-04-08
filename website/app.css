@@ -1,0 +1,37 @@
+﻿h1 {
+	font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+	font-family: 'Segoe UI', sans-serif;
+}
+
+span {
+	font-style: italic;
+}
+
+.intro {
+	padding-bottom: 1em;
+}
+
+.divTable {
+	display: table;
+	width: auto;
+}
+
+.divRow {
+	display: table-row;
+	width: auto;
+}
+
+.divLabel {
+	float: left; 
+	display: table-column;
+	padding-right: 5px;
+	font-weight: bold;
+}
+
+.divContent {
+	float: left; 
+	display: table-column;
+}

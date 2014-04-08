@@ -22,5 +22,7 @@ app.get("/customer", function (req, resp) {
     resp.send(JSON.stringify(customers));
 });
 
+app.use("/", express.static(__dirname + "/website/"));
+
 var port = process.env.PORT || 1337;
 app.listen(port);
